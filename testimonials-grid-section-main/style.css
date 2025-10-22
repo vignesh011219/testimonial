@@ -1,4 +1,4 @@
-/* * {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -99,16 +99,7 @@ article > .content > p {
   main > section > article {
     margin-top: 2em;
   }
-} */
+} 
 
-div {
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-  border: 5px dotted gray;
-  background-clip: border-box;-----it will control the painting area of bg
-  border-box---backgorund will be coverd till border
-  padding-box-backgrounf will cover till padding
-  content-box--background will cover only content
-}
+
+
