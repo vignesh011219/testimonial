@@ -1,0 +1,114 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+main {
+  background-color: hsl(214, 17%, 92%);
+  display: flex;
+  justify-content: center;
+}
+main > section {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 18em 18em;
+  gap: 2em;
+}
+main > section > article {
+  border-radius: 0.5em;
+  padding: 2em;
+}
+#art1 {
+  grid-column: span 2;
+  background-color: hsl(263, 55%, 52%);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+}
+#art2 {
+  background-color: hsl(217, 19%, 35%);
+}
+#art3 {
+  grid-row: span 2;
+  background-color: white;
+}
+#art4 {
+  background-color: white;
+}
+#art5 {
+  grid-column: span 2;
+  background-color: hsl(219, 29%, 14%);
+}
+
+article > .profile {
+  display: flex;
+  gap: 1em;
+}
+article > .profile > div > img {
+  border-radius: 50%;
+  width: 2em;
+}
+article > .profile > div > h5 {
+  color: white;
+  font-weight: 300;
+}
+article > .profile > div > h6 {
+  color: white;
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+article > .content {
+  margin-top: 1em;
+}
+article > .content > h3 {
+  color: white;
+  font-weight: 600;
+}
+article > .content > p {
+  color: white;
+  margin-top: 1em;
+  font-size: 0.8em;
+}
+
+#art3 > .content > h3,
+#art4 > .content > h3 {
+  color: hsl(217, 19%, 35%);
+}
+
+#art3 > .content > p,
+#art4 > .content > p {
+  color: hsla(224, 10%, 45%);
+}
+#art3 > .profile > div > h5,
+#art3 > .profile > div > h6,
+#art4 > .profile > div > h5,
+#art4 > .profile > div > h6 {
+  color: rgba(72, 85, 106, 0.551);
+  font-weight: 800;
+}
+
+@media all and (max-width: 375px) {
+  main > section {
+    width: 80%;
+    display: block;
+  }
+
+  main > section > article {
+    margin-top: 2em;
+  }
+} */
+
+div {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 5px dotted gray;
+  background-clip: border-box;-----it will control the painting area of bg
+  border-box---backgorund will be coverd till border
+  padding-box-backgrounf will cover till padding
+  content-box--background will cover only content
+}
